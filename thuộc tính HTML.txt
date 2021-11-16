@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--THUỘC TÍNH href
+các <a> thẻ định nghĩa một siêu liên kết. Các href thuộc tính xác định URL của các trang liên kết đi vào 
+
+ví dụ :
+ <a>href="https://www.trandingview.com">go to Tradingview.com</a>
+
+--THUỘC TÍNH src
+Các <img> thẻ được sử dụng để nhúng hình ảnh trong một trang HTML. Các src quy định cụ thể thuộc tính đường dẫn đến hình ảnh được hiển thị:
+ví dụ 
+
+<img src="img_girl.jpg">
+
+==THUỘC TÍNH CHIỀU RỘNG VÀ CHIỀU CAO 
+Các img thẻ cũng nên chứa width và height các thuộc tính để xác định chiều rộng và chiều cao 
+
+ví dụ 
+<img src="img_girl.jpg" width="500" height="600">
+
+---THUỘC TÍNH alt:
+thuộc tính bắt buộc cho <img> thẻ chỉ định văn bản thay thế cho hình ảnh vì một lí do nào đó mà không hiển thị . 
+
+ví dụ 
+<img src="img_girl.jpg" alt="Girl with a jacket">
+
+---THUỘC TÍNH KIỂU 
+Các style thuộc tính được sử dụng để thêm phong cách cho một yếu tố , chẳng hạn màu sắc, font chữ kích thước và nhiều hơn nữa 
+
+ví dụ 
+<p style="color:red;"> nội dung ghi sẽ hiển thị với màu chữ đỏ.</p>
+
+--- THUỘC TÍNH LANG
+ phải luôn bao gồm lang thuộc tính bên trong <html> thẻ , để khai báo ngôn ngữ của trang web. Điều này có nghĩa để hỗ trợ các công cụ tìm kiếm và trình duyệt 
+ví dụ . chỉ định Tiếng Anh làm ngôN NGỮ
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+....
+</body>
+</html>
+
+--THUỘC TÍNH TIÊU ĐỀ 
+Các title="Tôi Là Nguyễn Văn A"> nhấn chuột để biết thêm chi tiết.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Tóm tắt
+
+.Tất cả các phần tử HTML có thể có các thuộc tính
+.Các href thuộc tính của <a>quy định cụ thể các URL của trang liên kết đi vào
+.Các src thuộc tính của <img>quy định cụ thể đường dẫn đến hình ảnh sẽ được hiển thị
+.Các thuộc tính width và thông tin cung cấp kích thước cho hình ảnhheight<img>
+.Các alt thuộc tính của <img>cung cấp một văn bản thay thế cho hình ảnh
+.Các style thuộc tính được sử dụng để thêm phong cách cho một yếu tố, chẳng hạn như màu sắc, font chữ, kích thước, và nhiều hơn nữa
+.Các lang thuộc tính của <html>thẻ tuyên bố ngôn ngữ của trang web
+.Các title thuộc tính định nghĩa một số thông tin thêm về một yếu tố
