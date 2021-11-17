@@ -1,0 +1,121 @@
+--HTML chứa một số yếu tố để xác định văn bản có ý nghĩa đặc biệt 
+--Các phần tử định dạng được thiết kế để hiển thị các loại văn bản đặc biệt:
+. <b> -Chữ in đâm 
+. <strong> - Văn bản quan trọng 
+. <i> -Văn Bản in nghiêng 
+. <em> -Đoạn văn bản được nhấn mạnh 
+. <mark> -Văn Bản được đánh dấu 
+. <small> - Văn bản nhỏ hơn 
+. <del> -Văn bản đã xóa
+. <ins> -Đã chèn văn bản
+. <sub> -Văn bản chỉ số 
+. <sup> - Văn bản siêu cấp 
+
+---HTML <b> và <strong> Phần tử 
+. Phần <b> tử HTML xác định văn bản in đậm, không có bất kì tầm quan trọng nào hơn 
+ví dụ 
+<!DOCTYPE html>
+<html>
+<body>
+<p> Văn Bản 1.</p>
+<p><b>Nội dung Văn Bản.</b></p>
+
+</body>
+</html>
+ 
+<!DOCTYPE html>
+<html>
+<body>
+<p> Văn Bản 1.</p>
+<p><strong>Nội dung Văn Bản.</strong></p>
+
+</body>
+</html>
+
+--// Phần tử <i> và <em> HTML
+Phần <i> tử HTML xác định một phần văn bản bằng giọng nói hoặc tâm trạng thay thế
+   nội dung bên trong thường được hiển thị bằng chữ nghiêng
+VÍ DỤ 
+
+<!DOCTYPE html>
+<html>
+<body>
+<p> Văn Bản.</p>
+<p><i> ghi chú:</i></p>
+</body>
+</html>
+
+Phần <em> tử HTML xác định văn bản được nhấn mạnh . Nội dung bên trong bằng chữ ngiêng
+VÍ DỤ:
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>Văn bản </p>
+<p><em> ghi chú:</em></p>
+</body>
+</html>
+
+--Phần tử HTML <small>
+Phần <small> tử xác định đoạn văn bản nhỏ hơn 
+<!DOCTYPE html>
+<html>
+<body>
+<p> Văn Bản.</p>
+<p><small> ghi chú:</small></p>
+</body>
+</html>
+
+-- Phần tử <mark> HTML
+Phần <mark> tử HTML xác định văn bản được đánh dấu hoặc đánh dấu
+ví dụ 
+<!DOCTYPE html>
+<html>
+<body>
+<p> Don not forget to buy <mark>milk</mark> today.</p>
+</body>
+</html>
+
+--Phần tử <del> HTML
+Phần <del>tử HTML xác định văn bản đã bị xóa khỏi tài liệu.
+ Các trình duyệt thường sẽ gạch một dòng qua văn bản đã xóa:
+ví dụ 
+<!DOCTYPE html>
+<html>
+<body>
+<p> Don not forget to buy <del>milk</del> today.</p>
+</body>
+</html>
+
+--Phần tử <ins> HTML
+Phần <ins>tử HTML xác định văn bản đã được chèn vào tài liệu. 
+ Trình duyệt thường sẽ gạch dưới văn bản được chèn:
+<!DOCTYPE html>
+<html>
+<body>
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+</body>
+</html>
+
+--Phần tử <sub> HTML
+Phần <sub>tử HTML xác định văn bản chỉ số con.
+ví dụ 
+<!DOCTYPE html>
+<html>
+<body>
+<p>This is <sub>subscripted</sub> text.</p>
+</body>
+</html>
+
+--Phần tử <sup> HTML
+Phần <sup>tử HTML xác định văn bản chỉ số trên.
+ví dụ 
+<!DOCTYPE html>
+<html>
+<body>
+<p>This is <sup>superscripted</sup> text.</p>
+</body>
+</html>
+
+
+
